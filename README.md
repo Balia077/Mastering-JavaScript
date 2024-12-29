@@ -1,2 +1,6 @@
 # Mastering-JavaScript
+Hey There, I'm Balaram Das 
+Now I'm Learning Full-Stack Web Development...
+I have completed HTML & CSS..
+Now, I Have started JavaScript 
 I'm going to post my daily progress in JavaScript...
