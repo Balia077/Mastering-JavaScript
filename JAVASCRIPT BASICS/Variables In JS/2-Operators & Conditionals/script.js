@@ -39,3 +39,5 @@ console.log(a); //21
 console.log(b--); //10
 console.log(b); //9
 
+console.log(a**b); //794280046581
+
