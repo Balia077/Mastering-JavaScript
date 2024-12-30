@@ -62,7 +62,15 @@ let w = 10;
 console.log(w--);   //10
 console.log(w);     //9 
 
-____________________________________________________________________________________________________________________
 
 //2. Assignment Operators:
+
+let num = 5;
+let num1 = 10;
+
+num = num + 10;     // num += 10;
+console.log(num);  //15
+
+num = num - 5;      // num -= 5;
+console.log(num);  //10
 
