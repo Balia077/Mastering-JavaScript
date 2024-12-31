@@ -18,3 +18,4 @@ I'm going to post my daily progress in JavaScript...
     2.Assignment Operator✅
     3.Comparison Operators✅
     4.Logical Operators✅
+    5.Bitwise Operators
