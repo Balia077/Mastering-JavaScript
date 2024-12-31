@@ -125,54 +125,63 @@ console.log(typeof num2); //string
 let num3 = 5;
 console.log(typeof num3); //number
 
-console.log(num2 == num3);  //true  Loose Equality just check the value 
-console.log(num2 === num3); //false Strict Equality check the value and type of data both
+console.log(num2 == num3);  //true because  Loose Equality just check the value 
 
-// Ternary Operator:
+console.log(num2 === num3); //false because Strict Equality check the value and type of data both
 
-//Syntax: condition ? expression1 : expression2
+/* Ternary Operator:
+
+Syntax: condition ? expression1 : expression2
 
 let age = 20;
 let check = age > 18 ? 'I can vote' : 'I cannot vote';
-console.log(check); //I can vote
+console.log(check); 
 
+Output: I can vote
+ */
 //__________________________________________________________________________________________
 
-//4. Logical Operators: [&&, ||, !]:
+/* 4. Logical Operators: [&&, ||, !]:
 
-//1. Logical AND (&&): It returns true if all the conditions are true.
-//If any one of the conditions is false, it returns false.
-//It is denoted by '&&'
-//Syntax: condition1 && condition2
+1. Logical AND (&&):
 
-//2. Logical OR (||): It returns true if any one of the conditions is true.
-//If all the conditions are false, it returns false.
-//It is denoted by '||'
-//Syntax: condition1 || condition2
+=> It returns true if all the conditions are true.
+=> If any one of the conditions is false, it returns false.
+=> It is denoted by '&&'
+=> Syntax: condition1 && condition2
 
-//3. Logical NOT (!): It returns the opposite of the condition.
-//If the condition is true, it returns false.
-//If the condition is false, it returns true.
-//It is denoted by '!'
-//Syntax: !condition
+2. Logical OR (||): 
+
+=> It returns true if any one of the conditions is true.
+=> If all the conditions are false, it returns false.
+=> It is denoted by '||'
+=> Syntax: condition1 || condition2
+
+3. Logical NOT (!): 
+
+=> It returns the opposite of the condition.
+=> If the condition is true, it returns false.
+=> If the condition is false, it returns true.
+=> It is denoted by '!'
+=> Syntax: !condition */
 
 let ans = (true && true && true); 
-console.log(ans);                   //true
+console.log(ans);                //It will return 'true' because all the conditions are true.
 
 let ans1 = (true && true && false); 
-console.log(ans1);                  //false
+console.log(ans1);               //It will return 'false' because one of the conditions is false.
 
 let ans2 = (true || false || false); 
-console.log(ans2);                  //true
+console.log(ans2);               //It will return 'true' because one of the conditions is true.
 
 let ans3 = (false || false || false); 
-console.log(ans3);                  //false
+console.log(ans3);               //It will return 'false' because all the conditions are false.
 
 let ans4 = !(true); 
-console.log(ans4);                  //false
+console.log(ans4);              //false
 
 let ans5 = !(false);
-console.log(ans5);                  //true
+console.log(ans5);              //true
 
 //AND Operator:
 
@@ -232,7 +241,7 @@ console.log(!isFirst); //false  //It will return false because the value of isFi
 //Truthy values: A value is considered truthy if it is not false.
 //Falsy values: A value is considered falsy if it is false, [null, undefined, 0, NaN, or an empty string].
 
-console.log(false || 'Balaram'); //Balaram 
-console.log(false || 7);         //7 
+console.log(false || 'Balaram');     //Balaram 
+console.log(false || 7);            //7 
 console.log(false || 7 || 8 || 9); //7 //It will return the first truthy value it encounters 
 
