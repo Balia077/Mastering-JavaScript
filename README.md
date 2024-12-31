@@ -16,3 +16,5 @@ I'm going to post my daily progress in JavaScript...
 -> Operators:
     1.Arithmatic Operators✅
     2.Assignment Operator✅
+    3.Comparison Operators✅
+    4.Logical Operators✅
