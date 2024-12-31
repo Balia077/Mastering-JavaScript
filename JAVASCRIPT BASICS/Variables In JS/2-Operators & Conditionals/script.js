@@ -229,8 +229,8 @@ console.log(!isFirst); //false  //It will return false because the value of isFi
 
 // Truthy and Falsy values:
 
-//Truthy values: A value is considered truthy if it is not false, [null, undefined, 0, NaN, or an empty string].
-//Falsy values: A value is considered falsy if it is false, null, undefined, 0, NaN, or an empty string.
+//Truthy values: A value is considered truthy if it is not false.
+//Falsy values: A value is considered falsy if it is false, [null, undefined, 0, NaN, or an empty string].
 
 console.log(false || 'Balaram'); //Balaram 
 console.log(false || 7);         //7 
