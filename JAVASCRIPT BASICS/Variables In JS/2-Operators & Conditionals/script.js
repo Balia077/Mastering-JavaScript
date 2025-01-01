@@ -215,9 +215,9 @@ let Num4 = 10;
 let Num5 = 20;
 let Num6 = 30;
 
-console.log(num4 || num5); //10
-console.log(num5 || num4); //20
-console.log(num4 || num5 || num6); //10
+console.log(Num4 || Num5); //10
+console.log(Num5 || Num4); //20
+console.log(Num4 || Num5 || Num6); //10
 
 //NOT Operator:
 
@@ -244,4 +244,75 @@ console.log(!isFirst); //false  //It will return false because the value of isFi
 console.log(false || 'Balaram');     //Balaram 
 console.log(false || 7);            //7 
 console.log(false || 7 || 8 || 9); //7 //It will return the first truthy value it encounters 
+
+//5. Bitwise Operators:
+
+//Bitwise operators are used to perform bitwise operations on binary numbers.   
+
+//1. Bitwise AND(&)
+//2. Bitwise OR(|)
+//3. Bitwise NOT(~)
+//4. Bitwise XOR(^)
+//5. Left Shift(<<)
+//6. Right Shift(>>)
+
+//Bitwise AND(&):
+
+//=> It returns 1 if both the bits are 1.
+//=> It returns 0 if any one of the bits is 0.
+
+console.log(2 & 5); //0
+
+let num7 = 5; // Binary Representation of 5: 101
+let num8 = 7; // Binary Representation of 7: 111
+
+console.log(num7 & num8); //5
+
+//Bitwise OR(|):
+
+//=> It returns 1 if any one of the bits is 1.
+//=> It returns 0 if both the bits are 0.
+
+console.log(2 | 5); //7
+
+let num9 = 5; // Binary Representation of 5: 101
+let num10 = 7; // Binary Representation of 7: 111
+
+console.log(num9 | num10); //7
+
+//Bitwise NOT(~):
+
+//=> It returns the complement of the number.
+
+let num11 = 5; // Binary Representation of 5: 101
+
+console.log(~num11); //-6
+
+//Bitwise XOR(^):
+
+//=> It returns 1 if the bits are different.
+//=> It returns 0 if the bits are the same.
+
+console.log(2 ^ 5); //7
+
+let num12 = 5; // Binary Representation of 5: 101
+let num13 = 7; // Binary Representation of 7: 111
+
+console.log(num12 ^ num13); //2
+
+//Left Shift(<<):
+
+//=> It shifts the bits to the left by the specified number of positions.
+//=> It is equivalent to multiplying the number by 2.
+
+console.log(5 << 1); //10   [5*2 = 10]
+console.log(5 << 2); //20   [5*2*2 = 20]
+
+//Right Shift(>>):
+
+//=> It shifts the bits to the right by the specified number of positions.
+//=> It is equivalent to dividing the number by 2.
+
+console.log(5 >> 1); //2   [5/2 = 2]
+console.log(5 >> 2); //1   [5/2/2 = 1]
 
