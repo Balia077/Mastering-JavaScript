@@ -245,6 +245,8 @@ console.log(false || 'Balaram');     //Balaram
 console.log(false || 7);            //7 
 console.log(false || 7 || 8 || 9); //7 //It will return the first truthy value it encounters 
 
+//__________________________________________________________________________________________
+
 //5. Bitwise Operators:
 
 //Bitwise operators are used to perform bitwise operations on binary numbers.   
@@ -256,7 +258,7 @@ console.log(false || 7 || 8 || 9); //7 //It will return the first truthy value i
 //5. Left Shift(<<)
 //6. Right Shift(>>)
 
-//Bitwise AND(&):
+//1. Bitwise AND(&):
 
 //=> It returns 1 if both the bits are 1.
 //=> It returns 0 if any one of the bits is 0.
@@ -268,7 +270,7 @@ let num8 = 7; // Binary Representation of 7: 111
 
 console.log(num7 & num8); //5
 
-//Bitwise OR(|):
+//2. Bitwise OR(|):
 
 //=> It returns 1 if any one of the bits is 1.
 //=> It returns 0 if both the bits are 0.
@@ -280,7 +282,7 @@ let num10 = 7; // Binary Representation of 7: 111
 
 console.log(num9 | num10); //7
 
-//Bitwise NOT(~):
+//3. Bitwise NOT(~):
 
 //=> It returns the complement of the number.
 
@@ -288,7 +290,7 @@ let num11 = 5; // Binary Representation of 5: 101
 
 console.log(~num11); //-6
 
-//Bitwise XOR(^):
+//4. Bitwise XOR(^):
 
 //=> It returns 1 if the bits are different.
 //=> It returns 0 if the bits are the same.
@@ -300,7 +302,7 @@ let num13 = 7; // Binary Representation of 7: 111
 
 console.log(num12 ^ num13); //2
 
-//Left Shift(<<):
+//5. Left Shift(<<):
 
 //=> It shifts the bits to the left by the specified number of positions.
 //=> It is equivalent to multiplying the number by 2.
@@ -308,7 +310,7 @@ console.log(num12 ^ num13); //2
 console.log(5 << 1); //10   [5*2 = 10]
 console.log(5 << 2); //20   [5*2*2 = 20]
 
-//Right Shift(>>):
+//6. Right Shift(>>):
 
 //=> It shifts the bits to the right by the specified number of positions.
 //=> It is equivalent to dividing the number by 2.
