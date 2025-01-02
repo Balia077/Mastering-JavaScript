@@ -423,4 +423,106 @@ if (weight > 70) {
 
 //Output: You are Fit
 
+//4. Nested if-else Statement:
 
+/* The nested if-else statement is used to execute a block of code if a condition is true.
+
+Syntax:
+
+if(condition1){
+    if(condition2){
+        //block of code
+    }
+    else{
+        //block of code
+    }
+}
+else{
+    //block of code
+} */
+
+let marks = 80;
+
+if (marks > 90) {
+    if (marks > 95) {
+        console.log("A+ Grade");
+    } else {
+        console.log("A Grade");
+    }
+}
+else if (marks > 80 && marks <= 90) {
+    console.log("B Grade");
+}
+else {
+    console.log("C Grade");
+}
+
+//Output: C Grade
+
+//5. Switch Statement:
+
+/* The switch statement is used to execute a block of code based on the value of a variable.
+
+//Syntax:
+
+switch(expression){
+    case value1:
+        //block of code
+        break;
+    case value2:
+        //block of code
+        break;
+    case value3:
+        //block of code
+        break;
+    default:
+        //block of code
+} */
+
+let day = 3;
+
+switch (day) {
+    case 1:
+        console.log("Sunday");
+        break;
+    case 2:
+        console.log("Monday");
+        break;
+    case 3:
+        console.log("Tuesday");
+        break;
+    case 4:
+        console.log("Wednesday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+    case 7:
+        console.log("Saturday");
+        break;
+    default:
+        console.log("Invalid Day");
+}
+
+//Output: Tuesday
+
+let i = 3;
+
+switch(i){
+    case 1: console.log('A');
+    break;
+    case 2: console.log('B');
+    break;
+    case 3: console.log('C');
+    break;
+    case 4: console.log('D');
+    break;
+    default: console.log('E');
+}
+
+//Output: C
+
+//__________________________________________________________________________________________
