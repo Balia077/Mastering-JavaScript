@@ -327,6 +327,7 @@ console.log(5 >> 2); //1   [5/2/2 = 1]
 /* The if statement is used to execute a block of code if a condition is true.
 
 Syntax:
+
 if(condition){
     //block of code
 } */
@@ -362,6 +363,7 @@ if(speed <= 50){
 /* The if-else statement is used to execute a block of code if a condition is true.
 
 Syntax:
+
 if(condition){
     //block of code
 }
@@ -384,7 +386,7 @@ else{
 
 let Age = 3;
 
-if(age > 18){
+if(Age > 18){
     console.log('I can Drive'); 
 }
 else{
@@ -393,6 +395,32 @@ else{
 
 //output: I cannot Drive
 
+//3. if-else-if Statement:
 
+/* The if-else-if statement is used to execute a block of code if a condition is true.
+
+Syntax:
+
+if(condition1){
+    //block of code
+}
+else if(condition2){
+    //block of code
+}
+else{
+    //block of code
+} */
+
+let weight = 65;
+
+if (weight > 70) {
+    console.log("You are Overweight");
+} else if (weight > 50 && weight <= 70) {
+    console.log("You are Fit");
+} else {
+    console.log("You are Underweight");
+}
+
+//Output: You are Fit
 
 
