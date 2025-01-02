@@ -340,7 +340,7 @@ if(aGe > 18){
 
 //Output: I can vote
 
-//ex:-
+//example:- if statement with multiple conditions
 
 let speed = 87;
 
@@ -371,6 +371,7 @@ else{
     //block of code
 } */
 
+//examples:- if-else statement
 
 let age = 20;
 
@@ -411,12 +412,16 @@ else{
     //block of code
 } */
 
+//example:- if-else-if statement
+
 let weight = 65;
 
 if (weight > 70) {
     console.log("You are Overweight");
+
 } else if (weight > 50 && weight <= 70) {
     console.log("You are Fit");
+
 } else {
     console.log("You are Underweight");
 }
@@ -440,6 +445,8 @@ if(condition1){
 else{
     //block of code
 } */
+
+//example:- Nested if-else statement
 
 let marks = 80;
 
