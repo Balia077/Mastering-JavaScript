@@ -486,6 +486,8 @@ switch(expression){
         //block of code
 } */
 
+//example:- Switch statement
+
 let day = 3;
 
 switch (day) {
