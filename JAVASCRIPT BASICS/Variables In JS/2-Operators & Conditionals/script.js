@@ -319,3 +319,80 @@ console.log(5 >> 1); //2   [5/2 = 2]
 console.log(5 >> 2); //1   [5/2/2 = 1]
 
 //__________________________________________________________________________________________//__________________________________________________________________________________________
+
+//Conditional Statements:
+
+//1. if Statement:
+
+/* The if statement is used to execute a block of code if a condition is true.
+
+Syntax:
+if(condition){
+    //block of code
+} */
+
+let aGe = 20;
+
+if(aGe > 18){
+    console.log('I can vote'); 
+}
+
+//Output: I can vote
+
+//ex:-
+
+let speed = 87;
+
+if(speed > 90){
+    console.log("OverSpeeding");
+}
+
+if(speed > 50 && speed <=90){
+    console.log("Normal");
+}
+
+if(speed <= 50){
+    console.log("Slow");
+}
+
+//Output: Normal
+
+//2. if-else Statement:
+
+/* The if-else statement is used to execute a block of code if a condition is true.
+
+Syntax:
+if(condition){
+    //block of code
+}
+else{
+    //block of code
+} */
+
+
+let age = 20;
+
+if(age > 18){
+    console.log('I can Drive'); 
+}
+else{
+    console.log('I cannot Drive');
+}
+
+//Output: I can Drive
+
+
+let Age = 3;
+
+if(age > 18){
+    console.log('I can Drive'); 
+}
+else{
+    console.log('I cannot Drive');
+}
+
+//output: I cannot Drive
+
+
+
+
