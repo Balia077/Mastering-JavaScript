@@ -28,3 +28,14 @@ for (let i = 0; i < 5; i++) {
 }
 //Output: 0 1 2 3 4
 
+//while loop:
+
+//Syntax:
+
+// while (condition) {
+    // code to be executed
+// }
+
+//Example:
+
+// let i = 0;
