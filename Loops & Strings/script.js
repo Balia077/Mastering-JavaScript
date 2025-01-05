@@ -34,6 +34,24 @@ for(let i = 5; i > 0; i--){ //reverse order
 
 //Output: 5 4 3 2 1
 
+for(let i = 1; i <= 6; i++){
+    if(i == 4)
+        break;
+    else
+        console.log(i);
+}
+
+//Output: 1 2 3
+
+for(let i = 1; i<=4; i++){
+    if(i == 2)
+        continue;
+    else
+        console.log(i);
+}
+
+//output: 1 3 4
+
 
 //2. While loop:
 
@@ -45,5 +63,37 @@ for(let i = 5; i > 0; i--){ //reverse order
 
 //Example:
 
-// let i = 0;
+let i = 0;
+while(i < 5){
+    console.log(i);
+    i++;
+}
+
+//Output: 0 1 2 3 4
+
+let j = 5;
+while(j > 0){
+    console.log(j);
+    j--;
+}
+
+//Output: 5 4 3 2 1
+
+//3. Do while loop:
+
+//Syntax:
+
+// do {
+    // code to be executed
+// } while (condition);
+
+//Example:
+
+let k = 1;
+do{
+    console.log("Balaram");
+    k++;
+}while(k <= 10);
+
+//Output: Balaram 10 times
 
