@@ -28,7 +28,14 @@ for (let i = 0; i < 5; i++) {
 }
 //Output: 0 1 2 3 4
 
-//while loop:
+for(let i = 5; i > 0; i--){ //reverse order
+    console.log(i);
+}
+
+//Output: 5 4 3 2 1
+
+
+//2. While loop:
 
 //Syntax:
 
@@ -39,3 +46,4 @@ for (let i = 0; i < 5; i++) {
 //Example:
 
 // let i = 0;
+
