@@ -117,30 +117,37 @@ console.log(typeof(name));  //Output: string
 let myName = new String("Balaram Das");
 console.log(myName);    //Output: [String: 'Balaram Das'] => object type string 
 
-//String Operations
+//String Methods
 
 //1. Concatenation
 //2. Length
-//3. IndexOf
-//4. lastIndexOf
-//5. charAt
-//6. charCodeAt
-//7. toUpperCase
-//8. toLowerCase
-//9. slice
-//10. substring
-//11. substr
-//12. replace
-//13. split
-//14. trim
-//15. includes
-//16. startsWith
-//17. endsWith
-//18. repeat
+//3. Uppercase & lowercase
+//4. Substring
 
 //1. Concatenation:
 
-let op1 = 'English';
+let op1 = 'English ';
 let op2 = 'Hindi';
 
-console.log(op1 + ' ' + op2); //Output: English Hindi
+let ans = op1 + op2;
+console.log(ans); //Output: English Hindi
+
+let finalANs = `${op1}${op2}`;
+console.log(finalANs);  //Output: English Hindi
+
+//2. Length:
+
+let str = 'Balaram Das';
+console.log(str.length);    //Output: 11
+
+//3. Uppercaase & Lowercase:
+
+let str1 = 'Balaram Das';
+console.log(str1.toUpperCase());    //Output: BALARAM DAS
+
+let str2 = 'OBITO UCHIHA';
+console.log(str2.toLowerCase());    //Output: obito uchiha
+
+//4. Substring:
+
+
