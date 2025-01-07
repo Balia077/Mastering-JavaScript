@@ -97,3 +97,50 @@ do{
 
 //Output: Balaram 10 times
 
+//Strings
+
+//Strings are used to store text. Strings must be inside of either single or double quotes.
+
+//Example:
+
+let firstName = "Balaram";
+let lastName = 'Das';
+
+let name = `Obito
+Uchiha`;
+
+console.log(typeof(firstName)); //Output: string
+console.log(typeof(lastName));  //Output: string
+
+console.log(typeof(name));  //Output: string
+
+let myName = new String("Balaram Das");
+console.log(myName);    //Output: [String: 'Balaram Das'] => object type string 
+
+//String Operations
+
+//1. Concatenation
+//2. Length
+//3. IndexOf
+//4. lastIndexOf
+//5. charAt
+//6. charCodeAt
+//7. toUpperCase
+//8. toLowerCase
+//9. slice
+//10. substring
+//11. substr
+//12. replace
+//13. split
+//14. trim
+//15. includes
+//16. startsWith
+//17. endsWith
+//18. repeat
+
+//1. Concatenation:
+
+let op1 = 'English';
+let op2 = 'Hindi';
+
+console.log(op1 + ' ' + op2); //Output: English Hindi
