@@ -99,7 +99,7 @@ do{
 
 //Strings
 
-//Strings are used to store text. Strings must be inside of either single or double quotes.
+//Strings are used to store text. Strings must be inside of either single or double quotes or back tickes.
 
 //Example:
 
