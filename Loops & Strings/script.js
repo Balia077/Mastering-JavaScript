@@ -140,6 +140,9 @@ console.log(finalANs);  //Output: English Hindi
 let str = 'Balaram Das';
 console.log(str.length);    //Output: 11
 
+let Str = 'Obito Uchiha';
+console.log(Str.length);    //Output: 12
+
 //3. Uppercaase & Lowercase:
 
 let str1 = 'Balaram Das';
