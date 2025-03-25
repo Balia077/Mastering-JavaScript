@@ -7,13 +7,13 @@ I'm going to post my daily progress in JavaScript...
 
 ## Topics:
 
--> Variables:✅
+1-> Variables:✅
 
--> DataTypes:
+2-> DataTypes:
     1.Primitive✅
     2.Non-Primitive
     
--> Operators:
+3-> Operators:
     1.Arithmatic Operators✅
     2.Assignment Operator✅
     3.Comparison Operators✅
